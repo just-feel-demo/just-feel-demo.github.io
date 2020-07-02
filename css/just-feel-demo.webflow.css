@@ -51,6 +51,10 @@ a:hover {
 
 .thanks-fixed-wrapper {
   position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -617,8 +621,16 @@ a:hover {
 
 @media screen and (max-width: 479px) {
   .login-section {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
     background-size: cover;
     background-repeat: repeat-x;
+  }
+  .thanks-fixed-wrapper.home {
+    padding-top: 4vw;
   }
   .status-bar {
     padding: 0px;
@@ -649,6 +661,7 @@ a:hover {
     text-align: left;
   }
   .just-say {
+    margin-top: 0px;
     font-size: 15vw;
     line-height: 15vw;
   }
@@ -695,7 +708,7 @@ a:hover {
   }
   .thanks-crossover-wrapper {
     height: 20vw;
-    margin-top: 8vw;
+    margin-top: 12vw;
   }
   .thanks-crossover {
     left: 0%;
@@ -705,15 +718,21 @@ a:hover {
     width: 100%;
   }
   .image-4 {
-    width: 100%;
-    margin-top: 10vw;
-    padding-right: 25%;
-    padding-left: 25%;
+    width: 40%;
+    margin-top: 14vw;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
   .image-5 {
-    width: 100%;
-    padding-right: 33%;
-    padding-left: 33%;
+    width: 30%;
+    padding-right: 0%;
+    padding-left: 0%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
   .thanks-text {
     margin-top: 10vw;
