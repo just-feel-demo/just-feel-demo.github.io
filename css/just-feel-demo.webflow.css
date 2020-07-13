@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #000;
+  color: #4500c7;
 }
 
 .login-section {
@@ -205,12 +205,6 @@ a:hover {
   padding-bottom: 20px;
 }
 
-.level.lvl1 {
-  display: block;
-  width: 70vw;
-  margin-left: 15vw;
-}
-
 .level.lvl2 {
   display: none;
 }
@@ -314,13 +308,6 @@ a:hover {
   text-shadow: 1px 1px 0 #000;
 }
 
-.just-say.thanks {
-  font-family: Muli, sans-serif;
-  color: #fff;
-  letter-spacing: 0vw;
-  text-shadow: 1px 1px 0 #4500c7;
-}
-
 .heading {
   width: auto;
   margin-right: 10vw;
@@ -331,16 +318,6 @@ a:hover {
   line-height: 3vw;
   font-weight: 400;
   text-shadow: 1px 1px 0 #000;
-}
-
-.heading.ad {
-  width: 300px;
-  margin-right: 10px;
-  margin-left: 10px;
-  color: #000;
-  font-size: 18px;
-  text-align: left;
-  text-shadow: none;
 }
 
 .start-button {
@@ -358,12 +335,19 @@ a:hover {
   line-height: 5vw;
 }
 
-.start-button.p3p4 {
+.start-button:hover {
+  color: #fff;
+}
+
+.start-button.credit {
   background-color: #652d90;
 }
 
-.start-button.p5p6 {
-  background-color: #a0400d;
+.start-button.thanks {
+  width: 35%;
+  background-color: #652d90;
+  font-size: 2vw;
+  line-height: 4vw;
 }
 
 .card-grid {
@@ -472,19 +456,10 @@ a:hover {
   line-height: 1.5vw;
 }
 
-.image {
-  width: 200px;
-  margin-top: 10px;
-}
-
-.image-2 {
+.login-just-feel-logo {
   width: 10vw;
   margin-top: 2vw;
   margin-bottom: 2vw;
-}
-
-.image-3 {
-  width: 50%;
 }
 
 .thanks-logo-wrapper {
@@ -519,11 +494,15 @@ a:hover {
   background-color: #000;
 }
 
-.image-4 {
+.thanks-logo-media-studio {
   width: 30%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
-.image-5 {
+.thanks-logo-just-feel {
   width: 30%;
   padding-right: 5%;
   padding-left: 5%;
@@ -532,8 +511,8 @@ a:hover {
 .thanks-text {
   margin-top: 2vw;
   font-family: Muli, sans-serif;
-  font-size: 2.5vw;
-  line-height: 3vw;
+  font-size: 2vw;
+  line-height: 2.5vw;
   font-weight: 200;
   text-align: left;
 }
@@ -547,10 +526,6 @@ a:hover {
     display: none;
     width: 100%;
     margin-left: 0%;
-  }
-  .level.lvl1 {
-    width: auto;
-    margin-left: 0vw;
   }
   .card {
     width: 20vw;
@@ -604,7 +579,7 @@ a:hover {
   .card {
     width: 30vw;
   }
-  .image-2 {
+  .login-just-feel-logo {
     width: 20vw;
   }
   .thanks-logo-wrapper {
@@ -665,18 +640,20 @@ a:hover {
     font-size: 15vw;
     line-height: 15vw;
   }
-  .just-say.thanks {
-    margin-bottom: 0px;
-    letter-spacing: 0vw;
-  }
   .heading {
     font-size: 8vw;
     line-height: 8vw;
   }
   .start-button {
     width: 80%;
+    margin-top: 5vw;
     font-size: 7vw;
     line-height: 14vw;
+  }
+  .start-button.thanks {
+    width: 60%;
+    font-size: 4vw;
+    line-height: 9vw;
   }
   .card-grid {
     -ms-grid-columns: 1fr 1fr;
@@ -693,12 +670,13 @@ a:hover {
     font-size: 3vw;
     line-height: 3vw;
   }
-  .image-2 {
+  .login-just-feel-logo {
     width: 30vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
   }
   .thanks-logo-wrapper {
+    width: 80%;
     margin-top: 0vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -708,7 +686,7 @@ a:hover {
   }
   .thanks-crossover-wrapper {
     height: 20vw;
-    margin-top: 12vw;
+    margin-top: 6vw;
   }
   .thanks-crossover {
     left: 0%;
@@ -717,16 +695,16 @@ a:hover {
     bottom: 0%;
     width: 100%;
   }
-  .image-4 {
-    width: 40%;
-    margin-top: 14vw;
+  .thanks-logo-media-studio {
+    width: 50%;
+    margin-top: 7vw;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
   }
-  .image-5 {
-    width: 30%;
+  .thanks-logo-just-feel {
+    width: 35%;
     padding-right: 0%;
     padding-left: 0%;
     -webkit-align-self: center;
@@ -736,8 +714,8 @@ a:hover {
   }
   .thanks-text {
     margin-top: 10vw;
-    font-size: 5vw;
-    line-height: 7vw;
+    font-size: 4vw;
+    line-height: 5.5vw;
     font-weight: 300;
   }
 }
