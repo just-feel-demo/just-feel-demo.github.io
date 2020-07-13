@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://just-feel-demo.webflow.io/</loc>
+      <loc>https://just-feel-demo.github.io/</loc>
    </url>
    <url>
-      <loc>https://just-feel-demo.webflow.io/interactive-demo</loc>
+      <loc>https://just-feel-demo.github.io/interactive-demo</loc>
    </url>
    <url>
-      <loc>https://just-feel-demo.webflow.io/thanks</loc>
+      <loc>https://just-feel-demo.github.io/thanks</loc>
    </url>
 
 </urlset>
